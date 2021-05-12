@@ -1,0 +1,31 @@
+import torch
+from torch import nn
+from torch.utils.data import DataLoader
+import nltk
+from torchvision import datasets, transforms
+from torchvision.utils import make_grid
+from torch.optim import Adam
+from tqdm.notebook import tqdm
+import matplotlib.pyplot as plt
+torch.manual_seed(0)
+import json
+nltk.download('punkt')
+from nltk.stem.lancaster import LancasterStemmer
+stem = LancasterStemmer()
+from nltk import stem
+import nltk
+nltk.download('punkt')
+nltk.download('wordnet')
+from nltk.stem import WordNetLemmatizer
+lemmatizer=WordNetLemmatizer()
+import json
+import pickle
+from keras.models import Sequential
+from keras.layers import Dense,Activation,Dropout
+from keras.optimizers import SGD
+import random
+import json
+import torch
+import torch.nn as nn
+import numpy as np
+from torch.utils.data import Dataset, DataLoader
