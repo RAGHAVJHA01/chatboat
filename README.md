@@ -30,4 +30,3 @@ The Project: Using Recurrent Neural Networks to build a Chatbot
 Resourses:-
 
 https://arxiv.org/pdf/1503.08895.pdf
-https://bhashkarkunal.medium.com/conversational-ai-chatbot-using-deep-learning-how-bi-directional-lstm-machine-reading-38dc5cf5a5a3
